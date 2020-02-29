@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom">
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="425dp"
+        android:layout_gravity="bottom"
+        android:background="@color/ltgreen">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:text="02/29/2020"
+                    android:textSize="20sp"
+                    android:paddingRight="16dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"/>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:src="@drawable/common_google_signin_btn_icon_dark"
+                    android:layout_marginRight="210dp"
+                    />
+
+
+                <TextView
+                android:layout_marginLeft="-200dp"
+                android:layout_height="70dp"
+                android:layout_width="144dp"
+                android:text="Food Drive"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textStyle="bold" />
+                <TextView
+                    android:layout_height="70dp"
+                    android:gravity="left"
+                    android:textSize="20sp"
+                    android:text="0.4 mi "
+                    android:textStyle="italic"/>
+            </TableRow>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"/>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:text="03/02/2020"
+                    android:textSize="20sp"
+                    android:paddingRight="16dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"/>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:src="@drawable/common_google_signin_btn_icon_dark"
+                    android:layout_marginRight="210dp"
+                    />
+                <TextView
+                    android:layout_marginLeft="-200dp"
+                    android:layout_height="70dp"
+                    android:layout_width="144dp"
+                    android:text="Capitol Fauna"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_height="70dp"
+                    android:gravity="left"
+                    android:textSize="20sp"
+                    android:text="0.7 mi "
+                    android:textStyle="italic"/>
+            </TableRow>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"/>
+            <TableRow>
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:text="03/3/2020"
+                    android:textSize="20sp"
+                    android:paddingRight="16dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"/>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:src="@drawable/common_google_signin_btn_icon_dark"
+                    android:layout_marginRight="210dp"
+                    />
+                <TextView
+                    android:layout_marginLeft="-200dp"
+                    android:layout_height="70dp"
+                    android:layout_width="144dp"
+                    android:text="Toys4Kids"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_height="70dp"
+                    android:gravity="left"
+                    android:textSize="20sp"
+                    android:text="1.0 mi "
+                    android:textStyle="italic"/>
+            </TableRow>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"/>
+            <TableRow>
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:text="03/4/2020"
+                    android:textSize="20sp"
+                    android:paddingRight="16dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"/>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:src="@drawable/common_google_signin_btn_icon_dark"
+                    android:layout_marginRight="210dp"
+                    />
+                <TextView
+                    android:layout_marginLeft="-200dp"
+                    android:layout_height="70dp"
+                    android:layout_width="144dp"
+                    android:text="Zoo Cleanup"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_height="70dp"
+                    android:gravity="left"
+                    android:textSize="20sp"
+                    android:text="2.8 mi "
+                    android:textStyle="italic"/>
+            </TableRow>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"/>
+
+        </TableLayout>
+
+
+
+
+    </LinearLayout>
+</FrameLayout>
+
+
+
