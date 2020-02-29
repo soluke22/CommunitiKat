@@ -1,0 +1,4 @@
+#Fri Feb 28 21:59:38 EST 2020
+base.0=C\:\\Users\\alexw\\StudioProjects\\CommunitKat\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex
